@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+  background-image: linear-gradient(black, white);
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  min-height: 100%;
+  background-image: url(./images/image1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.section_one,
+.section_two,
+.section_three {
+  background-color: #36454f;
+  color: white;
+  text-align: center;
+  padding: 50px 80px;
+}
+.pimg2 {
+  background-image: url(./images/image2.png);
+  min-height: 400px;
+}
+.pimg3 {
+  min-height: 400px;
+  background-image: url(./images/image3.png);
+}
+.pimg4 {
+  min-height: 400px;
+  background-image: url(images/image4.jpg);
+}
+.ptext1,
+.ptext2,
+.ptext3,
+.ptext4 {
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  top: 50%;
+}
+.ptext1bg,
+.ptext2bg,
+.ptext3bg,
+.ptext4bg {
+  background-color: lightgray;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+.section_three {
+  background-color: #36454f;
+  color: lightgray;
+}
